@@ -28,8 +28,7 @@ public class Menu {
 	private String name;
 
     @ManyToOne
-//    (fetch = FetchType.LAZY)
-//    @JoinColumn(name = "category_id")
+//    @JoinColumn(name = "id", insertable = false, updatable = false)
     private Category category;
 
 }
